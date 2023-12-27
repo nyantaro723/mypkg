@@ -13,8 +13,10 @@
 ## ダウンロード
 
 ```bash
-git clone git@github.com:nyantaro723/robosys2023.git
+git clone git@github.com:nyantaro723/robosys2023_2.git
 ```
+
+## 使い方
 
 
 
