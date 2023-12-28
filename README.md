@@ -22,12 +22,9 @@ $ cd robosys2023_2/
 
 * talkerとlistenerの２つのターミナルを使います。
 
-<br>
+ * ① まず、端末１と端末２をそれぞれ開きます。
 
-
-* ① まず、端末１と端末２をそれぞれ開きます。
-
-* ② 端末１には
+ * ② 端末１には
 
 ```bash
 $ ros2 run mypkg talker
@@ -35,7 +32,7 @@ $ ros2 run mypkg talker
 
 と入力し、
 
-* ③ 端末２には
+ * ③ 端末２には
 
 ```bash
 $ ros2 run mypkg listener
@@ -43,24 +40,24 @@ $ ros2 run mypkg listener
  
 と入力します。
 
-* ④ 端末１と端末２の２つのターミナルを立ち上げると、
+ * ④ 端末１と端末２の２つのターミナルを立ち上げると、
 
 ```bash
-[INFO] [1703742678.270138053] [listener]: Listen: 0
-[INFO] [1703742678.745021817] [listener]: Listen: 1
-[INFO] [1703742679.245405478] [listener]: Listen: 2
-[INFO] [1703742679.745058842] [listener]: Listen: 3
-[INFO] [1703742680.245325938] [listener]: Listen: 4
-[INFO] [1703742680.745370106] [listener]: Listen: 5
-[INFO] [1703742681.245143670] [listener]: Listen: 6
-[INFO] [1703742681.745156353] [listener]: Listen: 7
+[INFO] [1703753586.608854575] [listener]: Listen: 0
+[INFO] [1703753587.093214417] [listener]: Listen: 1
+[INFO] [1703753587.579861711] [listener]: Listen: 2
+[INFO] [1703753588.091398360] [listener]: Listen: 3
+[INFO] [1703753588.581506718] [listener]: Listen: 4
+[INFO] [1703753589.088387901] [listener]: Listen: 5
+[INFO] [1703753589.582173126] [listener]: Listen: 6
+[INFO] [1703753590.092315223] [listener]: Listen: 7
 ```
 
 このようにlistener側に実行結果が出力されます。
 
 <br>
 
-* 止めたい場合は、[ctrl] + C を押す。
+* 止めたい場合は、[ctrl] + C を押します。
 
 <br>
 
