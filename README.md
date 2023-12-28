@@ -19,11 +19,12 @@ $ cd robosys2023_2/
 ```  
 
 <br>
-* talker、listener
+
+### talker、listener
 
 <br>
 
-  * talkerとlistenerの２つのターミナルを使います。
+* talkerとlistenerの２つのターミナルを使います。
 
 * ① まず、端末１と端末２をそれぞれ開きます。
 
@@ -68,11 +69,11 @@ $ ros2 run mypkg listener
 
 <br>
 
-* launch
+### launch
 
 <br>
 
-  * launchでは、１つのターミナルで実行します。
+* launchでは、１つのターミナルで実行します。
 
 * 下のように入力すると、１つの端末でtalkerとlistenerの２つが同時に立ち上がります。
 
