@@ -6,6 +6,8 @@
 
 # ROS2
 
+ROSを使って、プロセス間の通信を行う。
+
 ![test](https://github.com/nyantaro723/robosys2023_2/actions/workflows/test.yml/badge.svg)
 
 <br>
