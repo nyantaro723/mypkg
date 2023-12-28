@@ -6,7 +6,7 @@
 
 # ROS2
 
-
+![test](https://github.com/nyantaro723/robosys2023_2/actions/workflows/test.yml/badge.svg)
 
 <br>
 
