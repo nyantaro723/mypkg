@@ -19,12 +19,15 @@ $ cd robosys2023_2/
 ```  
 
 <br>
+* talker、listener
 
-* talkerとlistenerの２つのターミナルを使います。
+<br>
 
- * ① まず、端末１と端末２をそれぞれ開きます。
+  * talkerとlistenerの２つのターミナルを使います。
 
- * ② 端末１には
+* ① まず、端末１と端末２をそれぞれ開きます。
+
+* ② 端末１には
 
 ```bash
 $ ros2 run mypkg talker
@@ -34,7 +37,7 @@ $ ros2 run mypkg talker
 
 <br>
 
- * ③ 端末２には
+* ③ 端末２には
 
 ```bash
 $ ros2 run mypkg listener
@@ -44,7 +47,7 @@ $ ros2 run mypkg listener
 
 <br>
 
- * ④ 端末１と端末２の２つのターミナルを立ち上げると、
+* ④ 端末１と端末２の２つのターミナルを立ち上げると、
 
 ```bash
 [INFO] [1703753586.608854575] [listener]: Listen: 0
@@ -57,19 +60,47 @@ $ ros2 run mypkg listener
 [INFO] [1703753590.092315223] [listener]: Listen: 7
 ```
 
-このようにlistener側に実行結果が出力されます。
+上のようにlistener側に実行結果が出力されます。
 
 <br>
 
-* 止めたい場合は、[ctrl] + C を押します。
+* 閉じたい場合は、[ctrl] + C を押します。
 
 <br>
+
+* launch
+
+<br>
+
+  * launchでは、１つのターミナルで実行します。
+
+* 下のように入力すると、１つの端末でtalkerとlistenerの２つが同時に立ち上がります。
+
+```bash
+ros2 launch mypkg talk_listen.launch.py
+```
+
+と入力すると、下のような実行結果が出力されます。 
+
+```bash
+[listener-2] [INFO] [1703759848.957369808] [listener]: Listen: 0
+[listener-2] [INFO] [1703759849.386230316] [listener]: Listen: 1
+[listener-2] [INFO] [1703759849.894976106] [listener]: Listen: 2
+[listener-2] [INFO] [1703759850.381963480] [listener]: Listen: 3
+[listener-2] [INFO] [1703759850.921031700] [listener]: Listen: 4
+[listener-2] [INFO] [1703759851.383820970] [listener]: Listen: 5
+[listener-2] [INFO] [1703759851.887930155] [listener]: Listen: 6
+[listener-2] [INFO] [1703759852.420304231] [listener]: Listen: 7
+```
+
+* 閉じる手順は上と同様です。
 
 ## 必要なソフトウェア
 
 * Python
   * テスト済みバージョン: 3.7～3.10
 
+* ROS2 foxy
 
 ## テスト環境
 
