@@ -32,6 +32,8 @@ $ ros2 run mypkg talker
 
 と入力し、
 
+<br>
+
  * ③ 端末２には
 
 ```bash
@@ -39,6 +41,8 @@ $ ros2 run mypkg listener
 ```
  
 と入力します。
+
+<br>
 
  * ④ 端末１と端末２の２つのターミナルを立ち上げると、
 
