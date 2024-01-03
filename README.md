@@ -8,7 +8,7 @@
 
 ROSを使って、プロセス間の通信を行う。
 
-![test](https://github.com/nyantaro723/robosys2023_2/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/nyantaro723/mypkg/actions/workflows/test.yml/badge.svg)
 
 <br>
 
@@ -17,7 +17,7 @@ ROSを使って、プロセス間の通信を行う。
 ディレクトリ:
 
 ```bash
-$ cd robosys2023_2/  
+$ cd mypkg/  
 ```  
 
 <br>
