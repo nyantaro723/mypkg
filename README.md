@@ -2,23 +2,29 @@
 
 ### ロボットシステム学 課題２
 
-<br>
-
-# ROS2
-
-ROSを使って、プロセス間の通信を行う。
+* このパッケージは、ROSを使って、プロセス間の通信を行うものです。
 
 ![test](https://github.com/nyantaro723/mypkg/actions/workflows/test.yml/badge.svg)
 
-<br>
+## talker (パブリッシャ)
 
+* 実行すると、0.5秒ごとにトピック'countup'を通して数字を1ずつ増やしていき、その実行結果が16bit型のメッセージとして送られます。
+
+## listener (サブスクライバ)
+
+* 実行すると、トピック'countup'からメッセージを受け取り、ターミナルにログを表示します。
+
+## トピック (countup)
+
+* トピックは、
+
+## talk_listen.launch.py
+
+* １つのターミナルで実行すると、
+
+<br
+>
 ## 使い方
-
-ディレクトリ:
-
-```bash
-$ cd mypkg/  
-```  
 
 <br>
 
