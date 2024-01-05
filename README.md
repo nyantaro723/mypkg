@@ -22,7 +22,7 @@
 
 ## talk_listen.launch.py
 
-* １つのターミナルで実行すると、talkerとlistenerを同時に起動するためのlaunchファイルです。
+* １つのターミナルで実行すると、talkerとlistenerを同時に起動することのできるlaunchファイルです。
 
 <br>
 
